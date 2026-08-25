@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>La Vida Después de la Muerte</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>La Vida Después de la Muerte</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#misticismo">Misticismo y Creencias</a></li>
+                <li><a href="#cientifico">Perspectiva Científica</a></li>
+                <li><a href="#reflexion">Reflexión</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>¿Qué sucede después de la muerte?</h2>
+        <p>Exploramos diferentes perspectivas, creencias y teorías sobre la vida después de la muerte, desde diversas culturas y ciencias.</p>
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Misterio" class="img-center"/>
+    </section>
+
+    <section id="misticismo">
+        <h2>Creencias y Misticismo</h2>
+        <ul>
+            <li>Reencarnación</li>
+            <li>Cielo y infierno</li>
+            <li>Vida espiritual y almas</li>
+            <li>Perspectivas religiosas y espirituales</li>
+        </ul>
+        <p>Muchas culturas creen en la existencia de un plano espiritual o una vida después de la muerte.</p>
+        <img src="https://images.unsplash.com/photo-1486322022756-9deebc2d7ed4" alt="Espiritualidad" class="img-center"/>
+    </section>
+
+    <section id="cientifico">
+        <h2>Perspectiva Científica</h2>
+        <p>Desde la ciencia, la vida después de la muerte es un tema que aún no tiene evidencia concluyente. La neurociencia explica la conciencia como resultado del cerebro, y muchos científicos consideran que la muerte es el fin de la experiencia consciente.</p>
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Ciencia" class="img-center"/>
+    </section>
+
+    <section id="reflexion">
+        <h2>Reflexión final</h2>
+        <p>¿Qué piensas tú sobre la vida después de la muerte? Comparte tus pensamientos y creencias.</p>
+        <button id="reflexionBtn">Escribe tu reflexión</button>
+        <div id="reflexionForm" style="display:none;">
+            <textarea id="reflexionText" rows="4" cols="50" placeholder="Tu reflexión..."></textarea>
+            <br/>
+            <button onclick="guardarReflexion()">Enviar</button>
+        </div>
+        <div id="reflexionGuardada"></div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="galeria">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Misterio" />
+            <img src="https://images.unsplash.com/photo-1486322022756-9deebc2d7ed4" alt="Espiritualidad" />
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Ciencia" />
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Misterio" />
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 La Vida Después de la Muerte</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
